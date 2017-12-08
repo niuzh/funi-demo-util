@@ -20,7 +20,7 @@ public class FileTextUtil {
     }
 
     public static void main(String[] args) {
-        String filePath="/home/niu/Downloads/高科技军阀.txt";
+        String filePath="/home/niu/Downloads/莽荒纪.txt";
         FileTextUtil.getInstance().convert(filePath,"gbk","utf8");
         /*String filePath="/home/niu/Downloads/test.txt";
         FileTextUtil.getInstance().convert(filePath,"utf8","utf8");*/
